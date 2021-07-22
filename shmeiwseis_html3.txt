@@ -1,0 +1,6 @@
+npm init -y
+npm i -D parcel-bundler@1.12.3
+sudo npm i -g parcel-bundler@1.12.3
+
+parcel index.html
+parcel build --no-minify index.html
